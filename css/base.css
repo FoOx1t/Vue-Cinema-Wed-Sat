@@ -58,3 +58,20 @@ border-radius: 4px;
     color: var(--white);
   } 
 }
+
+.title {
+  display: flex;
+  align-items: flex-start;
+
+}
+
+.title__h {
+font-family: var(--CR);
+font-weight: 400;
+font-size: 36px;
+line-height: 100%;
+padding: 10px;
+color: var(--orange);
+border-bottom: 2px solid var(--orange);
+text-transform: capitalize;
+}
